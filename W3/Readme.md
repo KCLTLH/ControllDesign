@@ -1,16 +1,13 @@
-# <center> **🏎 HW3 Summary** </center>
+<h1 align="center" style="color: white; background-color: black; padding: 10px;">🏎 HW3 Summary</h1>
 
-<center>
+<p align="center">
+    <img src="PIC_HW3/1.png" style="width: 90%; margin: auto; display: block;">
+</p>
 
-![img1.png](PIC_HW3/1.png)
+<p align="center">
+    <img src="PIC_HW3/2.png" style="width: 90%; margin: auto; display: block;">
+</p>
 
-</center>
-
-<center> 
-
-![img2.png](PIC_HW3/2.png) 
-
-</center>
 
 
 ### <center> In this homework, we simulate the car system on the flat road and on a slope. Knowing the basic implementation of PID controller and knowing what the meaning behind the plot. </center>
@@ -18,11 +15,10 @@
 
 ## <center> 🖊Plot from system </center>
 
-<center>
 
-![img3.png](PIC_HW3/untitled.png)
-
-</center>
+<p align="center">
+    <img src="PIC_HW3/untitled.png" style="width: 90%; margin: auto; display: block;">
+</p>
 
 ### <center> Interpretation </center>
 
