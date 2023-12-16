@@ -43,7 +43,7 @@ Given a time constant (τ) of a system, we can approximate its bandwidth and fro
 
 ### 1. Approximate Bandwidth (f_B)
 The bandwidth of a first-order system can be approximated as the inverse of the time constant.
-\[ f_B = \frac{1}{2\pi\tau} \]
+f<sub>B</sub> = 1/ 
 
 For τ = 2.79 seconds, the approximate bandwidth \( f_B \) is calculated as:
 
