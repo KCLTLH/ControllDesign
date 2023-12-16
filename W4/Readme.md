@@ -34,33 +34,43 @@
 
 </center>
 
-Given a time constant (τ) of a system, we can approximate its bandwidth and from there, determine the Nyquist frequency for sampling the system's output.
+<h1 align="center" style="color: white; background-color:pink; padding: 10px;">🧮 Calculation</h1>
 
-## Given Data
-- Time Constant (τ): `2.79 seconds`
+<br>
 
-## Calculations
+<h2 align="center" style="color: white; background-color:; padding: 10px;">Approximate Bandwidth (f<sub>B</sub>)</h2>
 
-### 1. Approximate Bandwidth (f_B)
-The bandwidth of a first-order system can be approximated as the inverse of the time constant.
-f<sub>B</sub> = 1/ 
+<center>
 
-For τ = 2.79 seconds, the approximate bandwidth \( f_B \) is calculated as:
+#### The bandwidth of a first-order system can be approximated as the inverse of the time constant.
+### f<sub>B</sub> = 1/(2 π τ)
 
-\[ f_B ≈ \frac{1}{2\pi \times 2.79} ≈ 0.057 \, \text{Hz} \]
+#### For τ = 2.79 seconds, the approximate bandwidth f<sub>B</sub> = `0.057 Hz`
 
-### 2. Minimum Nyquist Frequency (f_N)
-The Nyquist frequency should be at least twice the bandwidth to satisfy the Nyquist criterion for sampling.
+</center>
 
-\[ f_N ≥ 2 \times f_B \]
+<h2 align="center" style="color: white; background-color:; padding: 10px;">Minimum Nyquist Frequency (f<sub>N</sub>)</h2>
 
-Thus, the minimum Nyquist frequency \( f_N \) is:
+<center>
 
-\[ f_N ≈ 2 \times 0.057 ≈ 0.114 \, \text{Hz} \]
+#### The Nyquist frequency should be at least twice the bandwidth to satisfy the Nyquist criterion for sampling.
 
-## Conclusion
-- Approximate Bandwidth (\(f_B\)): `0.057 Hz`
-- Minimum Nyquist Frequency (\(f_N\)): `0.114 Hz`
+### f<sub>N</sub> ≥ 2f<sub>B</sub> ≥ `0.11409 Hz`
 
+#### Thus, the minimum Nyquist frequency f<sub>N</sub> is:
+
+### f<sub>N</sub> ≈ `0.114 Hz`
+
+</center>
+
+<h2 align="center" style="color: white; background-color:; padding: 10px;">Conclusion</h2>
+
+<center>
+
+### Approximate Bandwidth **f<sub>B</sub>** : `0.057 Hz`
+### Minimum Nyquist Frequency **f<sub>N</sub>** : `0.114 Hz`
+### Minimum Sampling Frequency **f<sub>s</sub>** : `0.228 Hz`
+
+</center>
 
 
