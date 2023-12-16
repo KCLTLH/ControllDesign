@@ -1,11 +1,11 @@
 <h1 align="center" style="color: white; background-color: black; padding: 10px;">🏎 HW3 Summary</h1>
 
 <p align="center">
-    <img src="PIC_HW3/1.png" style="width: 90%; margin: auto; display: block;">
+    <img src="PIC_HW3/1.png" style="width: 60%; margin: auto; display: block;">
 </p>
 
 <p align="center">
-    <img src="PIC_HW3/2.png" style="width: 90%; margin: auto; display: block;">
+    <img src="PIC_HW3/2.png" style="width: 60%; margin: auto; display: block;">
 </p>
 
 
@@ -17,7 +17,7 @@
 
 
 <p align="center">
-    <img src="PIC_HW3/untitled.png" style="width: 90%; margin: auto; display: block;">
+    <img src="PIC_HW3/untitled.png" style="width: 80%; margin: auto; display: block;">
 </p>
 
 ### <center> Interpretation </center>
