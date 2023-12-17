@@ -25,52 +25,12 @@
 <h2 align="center" style="color: white; background-color:; padding: 10px;">👀Interpretation</h2>
 
 
-<center>
 
 ### From the PZ map, we can know the discrete time dominate pole overshoot is 28%. In the second picture, we do see the overshoot is 20% ish.
 ### Why the right plane of the poles is not dominate pole? Pole zero cancellation.
-### Why the discrete time simulation outcome seems so poor? The time constant (τ = 2.79s) and T = 2 sec. T is too close to τ, causing Aliasing.
+### Settling Time (T<sub>s</sub>)? ω<sub>n</sub> = 0.861, ζ = 0.416, T<sub>s</sub> = 4/ ω*ζ = 11.1689 sec.
 
 
-</center>
 
-<h1 align="center" style="color: white; background-color:pink; padding: 10px;">🧮 Calculation</h1>
-
-<br>
-
-<h2 align="center" style="color: white; background-color:; padding: 10px;">Approximate Bandwidth (f<sub>B</sub>)</h2>
-
-<center>
-
-#### The bandwidth of a first-order system can be approximated as the inverse of the time constant.
-### f<sub>B</sub> = 1/(2 π τ)
-
-#### For τ = 2.79 seconds, the approximate bandwidth f<sub>B</sub> = `0.057 Hz`
-
-</center>
-
-<h2 align="center" style="color: white; background-color:; padding: 10px;">Minimum Nyquist Frequency (f<sub>N</sub>)</h2>
-
-<center>
-
-#### The Nyquist frequency should be at least twice the bandwidth to satisfy the Nyquist criterion for sampling.
-
-### f<sub>N</sub> ≥ 2f<sub>B</sub> ≥ `0.11409 Hz`
-
-#### Thus, the minimum Nyquist frequency f<sub>N</sub> is:
-
-### f<sub>N</sub> ≈ `0.114 Hz`
-
-</center>
-
-<h2 align="center" style="color: white; background-color:; padding: 10px;">Conclusion</h2>
-
-<center>
-
-### Approximate Bandwidth **f<sub>B</sub>** : `0.057 Hz`
-### Minimum Nyquist Frequency **f<sub>N</sub>** : `0.114 Hz`
-### Minimum Sampling Frequency **f<sub>s</sub>** : `0.228 Hz`
-
-</center>
 
 
