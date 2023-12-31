@@ -2,8 +2,13 @@
 
 <center>
 
-![img.png](PIC_HW6/img.png)
-![img_1.png](PIC_HW6/img_1.png)
+<p align="center">
+    <img src="PIC_HW6/img.png" style="width: 60%; margin: auto; display: block;">
+</p>
+
+<p align="center">
+    <img src="PIC_HW6/img_1.png" style="width: 60%; margin: auto; display: block;">
+</p>
 
 </center>
 <br>
