@@ -1,10 +1,20 @@
 <h1 align="center" style="color: white; background-color:; padding: 10px;">HW5 Summary</h1>
 
-![img.png](PIC_HW5/img.png)
+<p align="center">
+    <img src="PIC_HW5/img.png" style="width: 60%; margin: auto; display: block;">
+</p>
 
 ### <center> In this practice we will compare Analog speed control to a Digital speed control system with operation velocity V<sub>0</sub> = 25 m/s and T<sub>sampling</sub> = 0.5 sec. Also, practice using Simulink in this problem set. </center>
 
-![img_3.png](PIC_HW5/img_3.png)
+<br>
+
+<p align="center">
+    <img src="PIC_HW5/img_1.png" style="width: 60%; margin: auto; display: block;">
+</p>
+
+<p align="center">
+    <img src="PIC_HW5/img_2.png" style="width: 60%; margin: auto; display: block;">
+</p>
 
 ### As the plot shown above, "Digital" seems to fit "Analog" pretty well, how there is still little difference between.
 
